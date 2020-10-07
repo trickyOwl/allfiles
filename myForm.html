@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Random Form</title>
+</head>
+
+<body>
+    <!-- https://rozetked.me/images/uploads/RpoDBoyggfMu.jpg взял для примера эту форму из интернета и на нее ориентировался -->
+    <h1>Моя форма регистрации</h1>
+    <form action="">
+        <fieldset class="block-1">
+            <legend><b>Ваши личные данные</b></legend>
+            <label for="username">Ваше имя</label><br>
+            <input id="username" type="text"> <br>
+            <label for="lastname">Ваша фамилия</label><br>
+            <input id="lastname" type="text">
+            <p><b><i>Прошу выбрать технологии, с которыми вы работали:</i></b></p>
+            <input id="vjs" type="checkbox"><label for="vjs">Vanilla JavaScript</label><br>
+            <input id="react" type="checkbox"><label for="react">React JavaScript</label><br>
+            <input id="ang" type="checkbox"><label for="ang">Angular JavaScript</label><br>
+            <input id="vue" type="checkbox"><label for="vue">Vue JavaScript</label><br>
+            <input id="mysql" type="checkbox"><label for="mysql">My SQL</label><br>
+            <input id="mssql" type="checkbox"><label for="mssql">MS SQL</label><br>
+            <input id="mongo" type="checkbox"><label for="mongo">Mongo DB</label><br>
+            <br>
+            <label for="cv"><b>Загрузите ваше резюме </b></label>
+            <input id="cv" type="file">
+        </fieldset>
+        <fieldset class="block-2">
+            <legend><b>Другое (не придумал)</b></legend>
+            <p>Как Вы о нас узнали? (выбрать одно)</p>
+            <input id="enet" type="radio" name="fromwhere" value="enet"><label for="enet">узнал в интернете</label><br>
+            <input id="friend" type="radio" name="fromwhere" value="friend"><label for="friend">узнал от друга
+                напрямую</label><br>
+            <input id="work" type="radio" name="fromwhere" value="work"><label for="work">на работе сказали идти к
+                вам</label><br>
+            <input id="sarafan" type="radio" name="fromwhere" value="sarafan"><label for="sarafan">сарафанное
+                радио</label><br>
+            <input id="social" type="radio" name="fromwhere" value="social"><label for="social">социальные
+                сети</label><br>
+            <input id="google" type="radio" name="fromwhere" value="google"><label for="google">сам нагуглил</label><br>
+        </fieldset>
+        <fieldset class="block-3">
+            <legend><b>Блок 3</b></legend>
+            <label for="w3review">Напишите Ваши ожидания</label> <br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50" placeholder="Ваш текст тут">
+            </textarea>
+            <br>
+        </fieldset>
+    </form>
+    <br><br>
+    <input type="reset" name="" id="" value="Очистить все поля">
+    <input type="button" name="" id="" value="Подтвердить">
+</body>
+
+</html>
